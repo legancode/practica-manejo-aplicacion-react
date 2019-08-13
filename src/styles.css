@@ -1,0 +1,9 @@
+.card-item{
+    width: 200px;
+    height: 100px;
+}
+
+.cart-info{
+    padding: .5rem 1rem;
+    border-radius: 5px;
+}

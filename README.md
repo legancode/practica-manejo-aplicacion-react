@@ -1,1 +1,1 @@
-# Practica del manejo del estado de una aplicacion
+# Practica: Manejo del estado de una aplicacion
