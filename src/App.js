@@ -14,7 +14,7 @@ const App = () => (
       <NavBar />
       <Switch>
         <Route path="/" exact component={Content}></Route>
-        <Route path="/datos" exact component={Dates}></Route>
+        <Route path="/datos" component={Dates}></Route>
       </Switch>
     </Router>
 

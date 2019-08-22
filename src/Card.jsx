@@ -29,12 +29,11 @@ const Card = ({ id, name, cart, addCourseToCart, removeCourseToCart }) => {
 
 // Pasar datos a props
 const mapStateToProps = state => ({
-    cart: state.cart
+    cart: state.rootCart.cart
 })
 
 // Pasar funciones a props
 const mapDispatchToProps = dispatch => {
-    console.log(dispatch)
 
     return {
         addCourseToCart(id) {
